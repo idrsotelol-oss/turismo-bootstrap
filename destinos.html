@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Destinos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-marca fixed-top" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo1.jpeg" alt="Logo Inti Travel Perú" class="img-fluid" width="100">
+          <span>Inti Travel Perú</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+          aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav mx-auto mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link active" href="destinos.html">Destinos</a></li>
+            <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          </ul>
+          <a href="contacto.html" class="btn btn-marca">Reservar</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--PRIMERA PARTE : logo, texto, banner y carrusel-->
+  <section class="container-fluid my-4 px-3 bienvenido">
+    <div class="row align-items-center justify-content-center g-4">
+
+      <!-- Texto -->
+      <div class="col-12 col-md-8 text-center">
+        <h1 class="display-5 fw-bold">DESCUBRE EL PERÚ</h1>
+        <h3 class="h5">
+          Bienvenidos a Inti Travel Perú,
+          tu nueva aventura comienza aquí
+        </h3>
+      </div>
+
+    </div>
+  </section>
+
+
+  <main>
+    <section class="container-fluid position-relative p-0">
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="caru-destinos carousel-item active">
+            <img src="img/cusco3.jpeg" class="d-block w-100 carrusel-img" alt="Machupichu">
+          </div>
+          <div class="caru-destinos carousel-item">
+            <img src="img/playa-la-mina.jpg" class="d-block w-100 carrusel-img" alt="playa la mina">
+          </div>
+
+          <div class="caru-destinos carousel-item">
+            <img src="img/huacachina.jpeg" class="d-block w-100 carrusel-img" alt="huacachina">
+          </div>
+          <div class="caru-destinos carousel-item">
+            <img src="img/Tarapoto (1).jpg" class="d-block w-100 carrusel-img" alt="Tarapoto">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span> 
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <section>
+      <h3 class="comentario1 text-center my-5 fw">Observa nuestros servicios turisticos y encuentra el viaje ideal </h3>
+    </section>
+
+
+    <!--SEGUNDA PARTE : Viaje mas vendido ; contenedor del boton para isa y xile-->
+
+    <section class="container my-5">
+
+      <div class="card shadow-sm border overflow-hidden mx-auto" style="max-width: 1100px;">
+
+        <div class="row g-0 align-items-center">
+
+          <div class="col-12 col-md-6">
+            <img src="img/islas (1).jpg" class="img-fluid w-100 imagen-tour" alt="Tour Paracas y Huacachina">
+          </div>
+
+          <div class="col-12 col-md-6">
+
+            <div class="card-body p-4 p-lg-5">
+
+              <p class="vendido mb-4 fw-bold px-3 py-2">
+                MÁS VENDIDO
+              </p>
+
+              <h2 class="card-title fw-bold mb-3">
+                Paracas - Pisco
+              </h2>
+
+              <p class="card-text text-muted mb-4">
+                Disfruta de una aventura inolvidable combinando la fauna marina
+                de las Islas Ballestas en Paracas con la adrenalina de los
+                tubulares en el Oasis de Huacachina.
+              </p>
+
+              <div class="d-flex flex-wrap align-items-center gap-4 mb-4">
+                <div>
+                  <small class="duracion">Duración:</small>
+                  <span class="fullday">1 Día (Full Day)</span>
+                </div>
+
+                <div>
+                  <small class="precio">Precio:</small>
+                  <span class="monto">S/ 189</span>
+                </div>
+              </div>
+
+              <a href="paracas.html " class="btn btn-marca">
+                Ver detalle
+              </a>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- TERCERA PARTE : Destino mas deseado , todo con cards -->
+    <section class="container my-5">
+
+      <h1 class="text-center my-5 fw-bold">
+        Nuestros destinos más deseados
+      </h1>
+
+      <div class="row justify-content-center g-4">
+
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="img/Machupichu (1).jpg" class="card-img-top imagen-destino" alt="Machu Picchu">
+
+            <div class="card-body text-center d-flex flex-column">
+              <h5 class="card-title fw-bold">Machu Picchu</h5>
+              <p class="card-text fs-5 fw-bold">S/ 1200</p>
+
+              <a href="machupicchu.html" class="btn btn-marca mt-auto">
+                Ver Detalle
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="img/Huacachina (1).jpg" class="card-img-top imagen-destino" alt="Oasis de Huacachina">
+
+            <div class="card-body text-center d-flex flex-column">
+              <h5 class="card-title fw-bold">Huacachina</h5>
+              <p class="card-text fs-5 fw-bold">S/ 800</p>
+
+              <a href="huacachina.html" class="btn btn-marca mt-auto">
+                Ver Detalle
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="img/Tarapoto.jpg" class="card-img-top imagen-destino" alt="Destino turístico de Tarapoto">
+
+            <div class="card-body text-center d-flex flex-column">
+              <h5 class="card-title fw-bold">Tarapoto</h5>
+              <p class="card-text fs-5 fw-bold">S/ 1000</p>
+
+              <a href="tarapoto.html" class="btn btn-marca mt-auto">
+                Ver Detalle
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CUARTA PARTE: video representativo y un parrafito -->
+    <section class="container my-5">
+
+      <div class="card shadow-sm border overflow-hidden">
+        <div class="row g-0 align-items-center">
+
+          <!-- Video de YouTube -->
+          <div class="col-12 col-md-6">
+            <div class="ratio ratio-16x9">
+              <iframe src="https://www.youtube.com/embed/9vgm-9kde5E?si=Xv6vQFETfxwj8Mht"
+                title="Video de destinos turísticos del Perú"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <div class="card-body p-4 p-lg-5 text-center">
+
+              <h3 class="card-title fw-bold" id="parrafito">
+                Ven, disfruta, conoce y maravíllate con los
+                destinos turísticos que te podemos brindar.
+              </h3>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+
+  </main>
+
+  <footer class="pie container-fluid mt-5 text-center">
+    <h3>Inti Travel Perú</h3>
+
+    <p>Explora el Perú y vive su magia.</p>
+
+    <p>&copy; 2026 Inti Travel Perú. Todos los derechos reservados.</p>
+  </footer>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</html>
